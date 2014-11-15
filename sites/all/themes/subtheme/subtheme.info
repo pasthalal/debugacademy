@@ -1,0 +1,6 @@
+name = subtheme
+description = Opigno Platon subtheme
+core = 7.x
+base theme = platon 
+
+stylesheets[all][] = css/subthemecss.css
