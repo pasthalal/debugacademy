@@ -1,3 +1,10 @@
-body {
-	color: red;
+#site-header {
+	background-color: #001931;
+	background-image: none;
+}
+#site-header a {
+	color: #e7e7e7;
+}
+#site-header a:hover {
+	color: #ff9001;
 }
