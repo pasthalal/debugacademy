@@ -3,7 +3,6 @@ description = A subtheme of Platon
 core = 7.x
 base theme = platon
 
-stylesheets[all][] = css/footer-style.css
 stylesheets[all][] = css/color.css
 
 regions[help] = Help
