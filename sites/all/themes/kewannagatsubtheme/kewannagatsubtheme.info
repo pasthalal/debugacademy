@@ -1,0 +1,6 @@
+name=Kewan Nagat subtheme
+description= opigno platon subtheme
+core= 7.x
+base theme= platon
+
+stylesheets[all][]=css/kewannagatsubtheme.css
