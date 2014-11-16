@@ -22,6 +22,8 @@ padding:0;
 #site-footer .region div{
 display:inline-block;
 vertical-align: top;
+text-align:left;
+margin-right:3em;
 }
 
 #site-footer #block-menu-menu-useful-links ul{
@@ -33,10 +35,12 @@ list-style-type:none;
 list-style-image:none;
 margin-bottom:1em;
 margin-left:0;
+padding: 0;
 }
 
 #site-footer #block-block-2{
 width: 100%;
 background-color: #242424;
 color:#505050;
+text-align:center;
 }
