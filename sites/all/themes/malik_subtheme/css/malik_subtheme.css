@@ -23,7 +23,16 @@ padding:0;
 display:inline-block;
 vertical-align: top;
 text-align:left;
-margin-right:3em;
+margin-right:6em;
+}
+
+#site-footer .region .content{
+margin-right:0;
+}
+
+#site-footer .region .content li{
+padding-left: 0;
+margin-left: 0;
 }
 
 #site-footer #block-menu-menu-useful-links ul{
