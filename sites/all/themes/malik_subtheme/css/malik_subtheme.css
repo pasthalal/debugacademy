@@ -1,6 +1,8 @@
 #site-footer{
 background-color: #383838;
 color:#a9a9a9;
+text-align: center;
+padding:0;
 }
 
 #site-footer a{
@@ -10,4 +12,31 @@ text-decoration: none;
 
 #site-footer h2{
 color: #ffffff;
+}
+
+#site-footer .col{
+width:100%;
+padding:0;
+}
+
+#site-footer .region div{
+display:inline-block;
+vertical-align: top;
+}
+
+#site-footer #block-menu-menu-useful-links ul{
+padding:0;
+}
+
+#site-footer #block-menu-menu-useful-links .leaf{
+list-style-type:none;
+list-style-image:none;
+margin-bottom:1em;
+margin-left:0;
+}
+
+#site-footer #block-block-2{
+width: 100%;
+background-color: #242424;
+color:#505050;
 }
