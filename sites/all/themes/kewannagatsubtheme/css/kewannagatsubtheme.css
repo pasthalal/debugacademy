@@ -1,1 +1,19 @@
-#logo {display:;}
+
+#site-header {
+background-color: #000000;
+background-image: none;
+font color: #ffffff;
+}
+h2 {
+	display: none;
+}
+.leaf{
+	display: inline;
+}
+.active{
+	position: fixed;
+	top: 0px;
+	right: 20px;
+}
+
+
