@@ -1,1 +1,21 @@
-#logo {display:;}
+#header{ float:left;
+		font-family: cursive;}
+
+#block-block-4.block.block-block.contextual-links-region{float:left;
+															margin:20px;}
+#block-block-5.block.block-block.contextual-links-region{float:left;
+															margin:20px;}
+#block-block-6.block.block-block.contextual-links-region{float:left;
+															margin:20px;}
+#block-block-7.block.block-block.contextual-links-region{float:left;
+															margin:20px;}
+#block-block-8.block.block-block.contextual-links-region{float:left;
+															margin:20px;}
+#block-block-9.block.block-block.contextual-links-region{float:left;
+															margin:20px;}
+
+
+
+#user-account-information{background-color: orange;
+							float:right;
+							background-color: orange;}
