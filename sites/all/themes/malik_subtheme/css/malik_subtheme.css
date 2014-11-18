@@ -14,6 +14,7 @@ text-decoration: none;
 color: #ffffff;
 font-size:0.8rem;
 border-bottom: 0.15rem solid gray;
+width:6.4rem;
 }
 
 #site-footer .col{
@@ -54,6 +55,8 @@ margin-left:0;
 padding: 0;
 }
 
+
+
 #site-footer #block-block-2{
 width: 100%;
 height:45px;
@@ -83,9 +86,9 @@ display:none;
 #site-footer #block-simplenews-2 .form-submit{
 background-color:#F67C32;
 color:#FFFFFF;
-width:10em;
-height:2em;
-border-radius:0.25em;
+width:7rem;
+height:1.7rem;
+border-radius:0.2rem;
 text-transform: uppercase;
 }
 
