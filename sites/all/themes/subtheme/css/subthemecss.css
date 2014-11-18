@@ -1,6 +1,7 @@
 #site-header {
 	background-color: #001931;
 	background-image: none;
+	height: 150 px;
 }
 #site-header a {
 	color: #e7e7e7;

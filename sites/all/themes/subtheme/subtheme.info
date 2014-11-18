@@ -4,3 +4,10 @@ core = 7.x
 base theme = platon 
 
 stylesheets[all][] = css/subthemecss.css
+
+regions[header] = Header
+regions[help] = Help
+regions[sidebar_first] = First sidebar
+regions[content] = Content
+regions[content_bottom] = Bottom of content
+regions[footer] = Footer
