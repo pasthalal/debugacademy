@@ -3,6 +3,8 @@
 background-color: #000000;
 background-image: none;
 font color: #ffffff;
+padding: 0;
+height: 127px;
 }
 h2 {
 	display: none;
@@ -10,10 +12,27 @@ h2 {
 .leaf{
 	display: inline;
 }
-.active{
-	position: fixed;
+#user-account-information-links{
+	position: absolute;
 	top: 0px;
-	right: 20px;
+	right: 0px;
+	background-color: #f67c32;
+	padding: 7px 14px;
+	
+}
+#site-header .row{
+	margin: 0 auto;
+	width: 902px;
+	
+}
+#site-header .row .leaf a {
+height: 77px;
+display: inline-block;
+padding-top: 50px;
+}
+
+#site-header ul.menu {
+	margin: 0;
 }
 
 
