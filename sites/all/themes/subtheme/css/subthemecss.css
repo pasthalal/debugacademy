@@ -2,11 +2,27 @@
 	background-color: #001931;
 	background-image: none;
 	height: 150 px;
-}
+	}
 #site-header a {
-	color: #e7e7e7;
+	color:  #e7e7e7;
 }
 #site-header a:hover {
 	color: #ff9001;
-}
-#header-search {display:none;}
+	}
+#header-search {
+	display:none;
+	}
+#site-header h2 {
+	display:none;
+	}
+#site-header ul li.leaf {
+	list-style-image: none;
+	list-style-type: none;
+	}
+#site-header ul li {
+	float: left;
+	padding: 0.2em 1.0em 0.8px 1.0em;
+	text-align: center;
+	}
+
+	
