@@ -18,6 +18,7 @@ h2 {
 	right: 0px;
 	background-color: #f67c32;
 	padding: 7px 14px;
+	border-radius: 0px 0px 5px 5px;
 	
 }
 #site-header .row{
@@ -25,11 +26,17 @@ h2 {
 	width: 902px;
 	
 }
-#site-header .row .leaf a {
+#site-header .row .leaf a{
 height: 77px;
 display: inline-block;
-padding-top: 50px;
+padding: 50px 20px;
+
 }
+#site-header .row .leaf a:hover{
+	background-color: white;
+	color: black;
+}
+
 
 #site-header ul.menu {
 	margin: 0;
