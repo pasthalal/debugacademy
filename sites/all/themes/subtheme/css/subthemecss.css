@@ -1,7 +1,15 @@
 #site-header {
 	background-color: #001931;
 	background-image: none;
-	height: 150 px;
+	height: 150 px
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+};
 	}
 #site-header a {
 	color:  #e7e7e7;
@@ -23,6 +31,8 @@
 	float: left;
 	padding: 0.2em 1.0em 0.8px 1.0em;
 	text-align: center;
+	margin:3rem;
+	margin-top:-0.001rem;
 	}
 
 	

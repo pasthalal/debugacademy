@@ -5,8 +5,10 @@
         <a href="<?php print $front_page; ?>" id="logo"><img src="<?php print $logo; ?>" alt="Opigno"></a>
       <?php endif; ?>
     </div>
+                             <div class="block_1"></div> <hr />
 
     <div class="col col-1-out-of-2 col-3-out-of-4 col-5-out-of-6">
+
 	<?php if (!empty($page['header'])): ?>
         <div id="header">
            <?php print render($page['header']); ?>
@@ -32,19 +34,14 @@
         </div>
       <?php endif; ?>
 
-      <div id="user-account-information">
-        <div id="user-account-information-picture">
-          <a href="<?php print url('user'); ?>">
-            <img src="<?php print $base_path . $directory; ?>/img/anonymous-account.png">
-          </a>
+      <d
         </div>
 
-        <div id="user-account-information-name">
-          <?php print t("welcome @user", array('@user' => $logged_in ? $user->name : t("guest"))); ?>
-
+      
           <div id="user-account-information-links">
+
             <?php if ($logged_in): ?>
-              <?php print l(t("my account"), 'user'); ?> | <?php print l(t("logout"), 'user/logout'); ?>
+              <?php print l(t("logout"), 'user/logout'); ?>
             <?php else: ?>
               <?php if ($can_register): ?>
                 <?php print l(t("register"), 'user/register'); ?> |
