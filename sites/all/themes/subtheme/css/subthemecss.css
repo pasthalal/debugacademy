@@ -29,17 +29,21 @@
 	float: left;
 	clear: both;
 	}
-#second-sidebar {
+#site-content {
 	color: #afafaf;
 	}
-#second-sidebar a {
+#site-content a {
 	color: #a17755;
 	}
-#second-sidebar a:hover {
+#site-content a:hover {
 	color: #e74c3c;
 	}
-#second-sidebar {
+#site-content {
 	background-color: #1a618e;
+	}
+#site-content a.node-tab {
+	background-color: #d46f41;
+	color: #ffffff;
 	}
 	
 	
