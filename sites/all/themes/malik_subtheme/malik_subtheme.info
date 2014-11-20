@@ -4,6 +4,7 @@ core = 7.x
 base theme = platon
 
 stylesheets[all][] = css/color.css
+stylesheets[all][] = css/malik_subtheme.css
 
 regions[help] = Help
 regions[sidebar_first] = First sidebar
