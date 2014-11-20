@@ -1,0 +1,25 @@
+name = theme1
+description = subtheme1 from Opigno LMS default theme. Fully responsive, HTML5 theme.
+core = 7.x
+base theme = platon
+
+settings[platon_use_home_page_background] = 0
+settings[platon_home_page_image_path] = ""
+
+stylesheets[all][] = css/theme1.css
+
+
+
+
+regions[help] = Help
+regions[sidebar_first] = First sidebar
+regions[content] = Content
+regions[content_bottom] = Bottom of content
+regions[footer] = Footer
+
+; Information added by Drupal.org packaging script on 2014-10-19
+version = "7.x-3.8"
+core = "7.x"
+project = "platon"
+datestamp = "1413751743"
+
