@@ -2,7 +2,7 @@
   <div class="row">
     <div class="col col-1-out-of-2 col-1-out-of-4 col-1-out-of-6">
       <?php if (!empty($logo)): ?>
-        <a href="<?php print $front_page; ?>" id="logo"><img src="<?php print $logo; ?>" alt="Opigno"></a>
+        <a href="<?php print $front_page; ?>" id="logo"><img src="<?php print $logo; ?>" alt="<?php print $site_name; ?>"></a>
       <?php endif; ?>
     </div>
 
