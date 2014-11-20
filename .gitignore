@@ -1,2 +1,9 @@
-.idea/
-modules/scorm/example_scorms/
+# Ignore configuration files that may contain sensitive information.
+sites/*/settings*.php
+sites/sites.php
+sites/*.local
+*.DS_store
+
+# Ignore paths that contain user-generated content.
+sites/*/files
+sites/*/private
