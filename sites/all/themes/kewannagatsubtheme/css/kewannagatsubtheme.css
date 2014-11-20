@@ -5,6 +5,7 @@ background-image: none;
 font color: #ffffff;
 padding: 0;
 height: 127px;
+
 }
 h2 {
 	display: none;
@@ -17,13 +18,18 @@ h2 {
 	top: 0px;
 	right: 0px;
 	background-color: #f67c32;
-	padding: 7px 14px;
+	padding: 10px 10px 10px 30px;
 	border-radius: 0px 0px 5px 5px;
+	background-image: url("../login_logo.png");
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: 20px;
 	
 }
 #site-header .row{
 	margin: 0 auto;
 	width: 902px;
+	font-size: 13px; 
 	
 }
 #site-header .row .leaf a{
@@ -42,4 +48,4 @@ padding: 50px 20px;
 	margin: 0;
 }
 
-
+img {margin-top: 30px;}
