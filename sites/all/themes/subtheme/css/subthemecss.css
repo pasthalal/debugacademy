@@ -22,7 +22,26 @@
 #site-header ul li {
 	float: left;
 	padding: 0.2em 1.0em 0.8px 1.0em;
+	margin-left: 5rem;
 	text-align: center;
 	}
+#site-header img {
+	float: left;
+	clear: both;
+	}
+#second-sidebar {
+	color: #afafaf;
+	}
+#second-sidebar a {
+	color: #a17755;
+	}
+#second-sidebar a:hover {
+	color: #e74c3c;
+	}
+#second-sidebar {
+	background-color: #1a618e;
+	}
+	
+	
 
 	
