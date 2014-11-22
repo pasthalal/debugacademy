@@ -2,6 +2,7 @@
 sites/*/settings*.php
 sites/sites.php
 sites/*.local
+sites/*.local*
 sites/default
 sites/default/*
 *.DS_store
