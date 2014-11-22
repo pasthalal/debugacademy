@@ -1,0 +1,12 @@
+name = Debug Roles
+description = Student, Teacher, and Client roles (associated permissions included)
+core = 7.x
+package = Features
+version = 7.x-1.0-beta1
+project = debug_roles
+dependencies[] = features
+dependencies[] = features_roles_permissions
+features[features_api][] = api:2
+features[roles_permissions][] = client
+features[roles_permissions][] = student
+features[roles_permissions][] = teacher
