@@ -1,17 +1,23 @@
 #site-header {
 	background-color: #001931;
 	background-image: none;
-	height: 100px
+	height: 65px
 	}
 hr {
     display: block;
     height: 1px;
+    width: 6rem;
+    color: #007373;
+    background-color: #007373;
+    max-width: 5em;
     border: 0;
     border-bottom: 1px solid #ccc;
-    margin: 1em 0;
+    margin: 1rem;
+    margin-top: 2rem;
     padding: 0;
-};
-	}
+    float:left;
+}
+	
 #site-header a {
 	color:  #e7e7e7;
 }
@@ -39,6 +45,7 @@ hr {
 #site-header ul li.leaf {
 	list-style-image: none;
 	list-style-type: none;
+	border: 0;
 	}
 #site-header ul li {
 	float: left;
@@ -46,8 +53,9 @@ hr {
 	margin-left: 5rem;
 	text-align: center;
 	margin:3rem;
-	margin-top:-0.001rem;
+	margin-top:-2.75rem;
 	}
+<<<<<<< HEAD
 #site-header img {
 	float: left;
 	clear: both;
@@ -75,5 +83,15 @@ hr {
 
 	
 	
+=======
+#user-account-information-links {
+	margin-top: -2.5rem;
+	float: right;
+	margin-right: 9rem;
+}
+	
+
+
+>>>>>>> 08248facca0155ba887e9b5188356f3ac936c789
 
 	
