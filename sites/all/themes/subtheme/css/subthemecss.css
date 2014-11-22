@@ -12,6 +12,18 @@
 #header-search {
 	display:none;
 	}
+#second-sidebar {
+	color: #afafaf;
+	}
+#second-sidebar a {
+	color: #a17755;
+	}
+#second-sidebar a:hover {
+	color: #e74c3c;
+	}
+#second-sidebar {
+	background-color: #1a618e;
+	}
 #site-header h2 {
 	display:none;
 	}
@@ -45,6 +57,11 @@
 	background-color: #d46f41;
 	color: #ffffff;
 	}
+.search-form input {
+	color: #a3a3a3;
+	background-color: #ffffff;
+	}
+
 	
 	
 
