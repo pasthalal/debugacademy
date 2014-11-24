@@ -1,0 +1,14 @@
+name = debuga_theme1
+description = Debug Academy theme 1
+core = 7.x
+base theme = platon 
+
+stylesheets[all][] = css/debuga_theme1.css
+stylesheets[all][] = css/theme1.css
+
+regions[header] = Header
+regions[help] = Help
+regions[sidebar_first] = First sidebar
+regions[content] = Content
+regions[content_bottom] = Bottom of content
+regions[footer] = Footer
