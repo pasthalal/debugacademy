@@ -1,0 +1,82 @@
+#mini-panel-main_section h1{
+font-size: 4rem;
+color: #FFFFFF;
+}
+
+#mini-panel-main_section .panel-col-last {
+height: 22rem;
+}
+
+#mini-panel-main_section .panel-col-last .pane-block{
+margin:0;
+text-align: left;
+top:10rem;
+background-color: #F67C32;
+padding-left: 1rem;
+border-radius: 1rem;
+color: #FFFFFF;
+width:19rem;
+font-size: 0.9rem;
+}
+
+
+.panel-col-top .inside {
+text-align: center;
+}
+
+#second-sidebar{
+padding:0
+}
+
+/*Students and Employers blocks*/
+.panel-col-bottom .pane-block {
+text-align: left;
+font-size: 0.9rem;
+margin: 1rem;
+margin-bottom:0;
+background: rgba(54, 25, 25, .5);
+color: #FFFFFF;
+display: inline-block;
+position:relative;
+bottom: -3.4rem;
+}
+
+.left-padding{
+padding-left: 1rem;
+}
+
+.right-padding{
+padding-right:1rem;
+}
+
+.panel-col-bottom .pane-title {
+border-bottom: 0.15rem solid gray;
+width:4.8rem;
+margin-left: 1rem;
+}
+
+#Apply-Now,#Hire-Our-Class{
+text-decoration:none;
+}
+
+#Apply-Now h2, #Hire-Our-Class h2{
+width:20rem;
+display:table-cell;
+vertical-align:middle;
+text-align:left;
+color: #FFFFFF;
+background-color: black;
+margin:0;
+padding-left:2rem;
+height: 2.9rem;
+background-image: url("/sites/all/themes/debuga_theme2/images/button-bg.png");
+}
+
+.panel-col-bottom .panel-separator {
+display: none;
+}
+
+#mini-panel-main_section{
+background-image: url("/sites/all/themes/debuga_theme2/images/main-image.png");
+margin-bottom: 3.4rem;
+}
