@@ -6,5 +6,7 @@
    *
    */
  function debugsociety_title_time_node_presave($node) {
-    dpm(' this worked but the other didnt?');
+    if($node->type == 'poll') {
+      $node->title = $node->title . ' (' . time() . ')';
+    }
   }
