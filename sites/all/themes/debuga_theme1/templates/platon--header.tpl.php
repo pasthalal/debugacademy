@@ -34,9 +34,6 @@
         </div>
       <?php endif; ?>
 
-      <d
-        </div>
-
       
           <div id="user-account-information-links">
 
