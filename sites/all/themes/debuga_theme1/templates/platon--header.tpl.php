@@ -12,8 +12,7 @@
 	<?php if (!empty($page['header'])): ?>
         <div id="header">
            <?php print render($page['header']); ?>
-          </div>
-        <?php endif; ?>
+
       <?php if (!empty($search_form)): ?>
         <a href="<?php print url('search/node'); ?>" class="mobile-link-icon">
           <img src="<?php print $base_path . $directory; ?>/img/search-submit.png">
@@ -46,6 +45,8 @@
               <?php print l(t("login"), 'user/login'); ?>
             <?php endif; ?>
           </div>
+          </div>
+        <?php endif; ?>
         </div>
       </div>
     </div>
