@@ -70,13 +70,192 @@ margin:0;
 padding-left:2rem;
 height: 2.9rem;
 background-image: url("/sites/all/themes/debuga_theme2/images/button-bg.png");
+background-size:contain;
+background-repeat:no-repeat;
 }
 
-.panel-col-bottom .panel-separator {
+.panel-separator {
 display: none;
 }
 
 #mini-panel-main_section{
 background-image: url("/sites/all/themes/debuga_theme2/images/main-image.png");
 margin-bottom: 3.4rem;
+}
+
+/*
+*
+*
+*
+Tabbed section
+*
+*
+*
+*/
+.pane-logistics-section{
+margin-top:6rem;
+width:auto;
+}
+
+#tabs-logistics_section-middle{
+border: none;
+text-align:center;
+}
+#tabs-logistics_section-middle .item-list{
+display:inline-block;
+}
+
+#tabs-logistics_section-middle  .ui-tabs-panel{
+text-align:left;
+margin:0 auto;
+border:0.2rem solid #E5E5E5;
+width:52rem;
+}
+
+.tab-header{
+font-size:1.4rem;
+margin-top:0;
+}
+
+#tabs-logistics_section-middle  a{
+text-decoration:none;
+}
+
+#tabs-logistics_section-middle  p{
+font-size: 0.8rem;
+}
+
+#tabs-logistics_section-middle .item-list a{
+padding: 0;
+margin: 0;
+color: transparent;
+width:13.4375rem;
+height:10rem;
+}
+
+#tabs-logistics_section-middle li{
+margin:0.25rem
+}
+
+/*First tab inactive state*/
+#tabs-logistics_section-middle .ui-tabs-nav .first a{
+background-image:url("/sites/all/themes/debuga_theme2/images/teaching-next-inactive.png");
+background-size:contain;
+background-repeat:no-repeat;
+}
+
+/*First tab active state*/
+#tabs-logistics_section-middle .ui-tabs-nav li.first.ui-state-active a{
+background-image:url("/sites/all/themes/debuga_theme2/images/teaching-next-active.png");
+background-size:contain;
+background-repeat:no-repeat;
+}
+
+/*Second tab inactive state*/
+#tabs-logistics_section-middle .ui-tabs-nav li:nth-child(2) a {
+background-image:url("/sites/all/themes/debuga_theme2/images/teaching-something-inactive.png");
+background-size:contain;
+background-repeat:no-repeat;
+}
+
+/*Second tab active state*/
+#tabs-logistics_section-middle .ui-tabs-nav li:nth-child(2).ui-state-active a {
+background-image:url("/sites/all/themes/debuga_theme2/images/teaching-something-active.png");
+background-size:contain;
+background-repeat:no-repeat;
+}
+
+/*Third tab inactive state*/
+#tabs-logistics_section-middle .ui-tabs-nav li:nth-child(3) a {
+background-image:url("/sites/all/themes/debuga_theme2/images/location-tab-inactive.png");
+background-size:contain;
+background-repeat:no-repeat;
+}
+
+/*Third tab active state*/
+#tabs-logistics_section-middle .ui-tabs-nav li:nth-child(3).ui-state-active a {
+background-image:url("/sites/all/themes/debuga_theme2/images/location-tab-active.png");
+background-size:contain;
+background-repeat:no-repeat;
+}
+
+/*Fourth (last) tab inactive state*/
+#tabs-logistics_section-middle .ui-tabs-nav .last a{
+background-image:url("/sites/all/themes/debuga_theme2/images/payment-tab-inactive.png");
+background-size:contain;
+background-repeat:no-repeat;
+}
+
+/*Fourth (last) tab active state*/
+#tabs-logistics_section-middle .ui-tabs-nav li.last.ui-state-active a{
+background-image:url("/sites/all/themes/debuga_theme2/images/payment-tab-active.png");
+background-size:contain;
+background-repeat:no-repeat;
+}
+
+#tabs-logistics_section-middle ul, #tabs-logistics_section-middle li {
+background:none;
+border:none;
+}
+
+/*wrapper around h2*/
+.inline-block-wrap{
+display:inline-block;
+}
+
+/*See more detail button styling*/
+.more-detail{
+width:11.4rem;
+display:table-cell;
+vertical-align:middle;
+text-align:left;
+color: #FFFFFF;
+margin:0;
+font-size: 0.8rem;
+padding-left:0.5rem;
+height: 2.2rem;
+background-image: url("/sites/all/themes/debuga_theme2/images/orange-button-bg.png");
+background-size: contain;
+background-repeat:no-repeat;
+}
+
+/*
+*
+*
+*
+Apply Section
+*
+*
+*
+*/
+#mini-panel-apply_section{
+margin-top: 2rem;
+background-image: url("/sites/all/themes/debuga_theme2/images/movement-bg.png");
+background-size:cover;
+background-repeat:no-repeat;
+}
+
+#join-the-movement-header{
+padding-top:3rem;
+margin-top: 0;
+font-size:3rem;
+color: #FFFFFF;
+}
+
+#apply-today div {
+margin-bottom:3rem;
+}
+#apply-today h2{
+width:15.2rem;
+font-size:1.7rem;
+display:table-cell;
+vertical-align:middle;
+text-align:left;
+color: #FFFFFF;
+margin:0;
+padding-left:1rem;
+height:3rem;
+background-image: url("/sites/all/themes/debuga_theme2/images/orange-button-bg.png");
+background-size:contain;
+background-repeat:no-repeat;
 }
