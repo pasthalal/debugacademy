@@ -1,3 +1,14 @@
+.panel-1col {
+text-align: center;
+}
+#mini-panel-main_section .panel-col-first{
+height:1rem;
+}
+
+#mini-panel-main_section .panel-col{
+width:50%;
+}
+
 #mini-panel-main_section h1{
 font-size: 4rem;
 color: #FFFFFF;
@@ -19,11 +30,6 @@ width:19rem;
 font-size: 0.9rem;
 }
 
-
-.panel-col-top .inside {
-text-align: center;
-}
-
 #second-sidebar{
 padding:0
 }
@@ -38,7 +44,7 @@ background: rgba(54, 25, 25, .5);
 color: #FFFFFF;
 display: inline-block;
 position:relative;
-bottom: -3.4rem;
+bottom: -2.8rem;
 }
 
 .left-padding{
@@ -258,4 +264,43 @@ height:3rem;
 background-image: url("/sites/all/themes/debuga_theme2/images/orange-button-bg.png");
 background-size:contain;
 background-repeat:no-repeat;
+}
+
+/*
+*
+*
+*
+How we're different section
+*
+*
+*
+*/
+.pane-block-11{
+width: 54rem;
+font-size:0.9rem;
+margin: 3rem auto;
+}
+
+.pane-block-11 .pane-title{
+margin-bottom: 3rem;
+font-size: 1.3rem;
+}
+
+.pane-block-11 ul{
+margin: 0;
+padding: 0;
+display: inline-block;
+}
+
+.pane-block-11 li{
+list-style:none;
+background: url("/sites/all/themes/debuga_theme2/images/orange-check.png") no-repeat left top;
+padding-left:2rem;
+margin-bottom:1rem;
+text-align:left;
+vertical-align: middle;
+}
+
+.left{
+text-align:left;
 }
