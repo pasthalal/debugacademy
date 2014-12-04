@@ -5,6 +5,7 @@ base theme= platon
 
 stylesheets[all][]=css/theme2-1.css
 stylesheets[all][]=css/theme2-2.css
+stylesheets[all][]=css/theme2-home.css
 
 regions[header] = Header
 regions[help] = Help
