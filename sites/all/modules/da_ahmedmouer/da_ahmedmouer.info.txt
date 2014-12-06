@@ -1,0 +1,8 @@
+name = da_ahmedmouer
+description = Module designed for custom updates
+package = Core
+version = VERSION
+core = 7.x
+files[] = 
+configure = 
+
