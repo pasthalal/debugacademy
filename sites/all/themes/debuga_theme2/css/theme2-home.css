@@ -50,7 +50,7 @@ text-align: left;
 font-size: 0.9rem;
 margin: 1rem;
 margin-bottom:0;
-background: rgba(54, 25, 25, .5);
+background: rgba(128, 128, 128, .5);
 color: #FFFFFF;
 display: inline-block;
 position:relative;
@@ -315,4 +315,27 @@ vertical-align: middle;
 
 .left{
 text-align:left;
+}
+
+/*
+*
+*
+*
+Previous Graduate Statistics section
+*
+*
+*
+*/
+.pane-block-12{
+background-image: url("/sites/all/themes/debuga_theme2/images/statistics-bg.png");
+background-size: cover;
+background-repeat:no-repeat;
+margin-bottom: 3rem;
+padding-bottom: 3rem;
+}
+
+.pane-block-12 .pane-title{
+padding-top:3rem;
+margin-top: 0;
+color: #FFFFFF;
 }
