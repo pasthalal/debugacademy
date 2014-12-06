@@ -1,0 +1,4 @@
+name = da_ahmedmouer
+description = Module designed for custom updates
+core = 7.x
+
