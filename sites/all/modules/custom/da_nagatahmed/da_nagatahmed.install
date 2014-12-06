@@ -9,3 +9,4 @@ function da_nagatahmed_install(){
 	$module=array('debuga_theme2');
 	theme_enable($module);
 }
+
