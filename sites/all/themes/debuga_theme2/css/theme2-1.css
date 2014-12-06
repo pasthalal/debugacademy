@@ -1,0 +1,80 @@
+#site-header {
+background-color: #000000;
+background-image: none;
+font color: #ffffff;
+padding: 0;
+height: 127px;
+
+}
+#site-header h2 {
+	display: none;
+}
+#site-header .leaf{
+	display: inline;
+}
+#user-account-information-links{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	background-color: #f67c32;
+	padding: 10px 10px 10px 30px;
+	border-radius: 0px 0px 5px 5px;
+	background-image: url("../login_logo.png");
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: 20px;
+	
+}
+#site-header .row{
+	margin: 0 auto;
+	width: 902px;
+	font-size: 13px; 
+	
+}
+#site-header .row .leaf a{
+height: 77px;
+display: inline-block;
+padding: 50px 20px;
+
+}
+#site-header .row .leaf a:hover{
+	background-color: white;
+	color: black;
+}
+
+
+#site-header ul.menu {
+	margin: 0;
+}
+#site-header img {
+	margin-top: 30px;
+}
+#second-sidebar {
+background-color: #ffffff;
+}
+.action-element, .action-add-element, .action-sort-element, .action-start-element, .action-next-element, .action-prev-element, .form-submit, input[type="submit"], input[type="button"], button {
+	background: #f67b42;
+}
+ul.tabs li a.active, ul.tabs li a:hover{
+	background-color: #00aba3;
+}
+ul.tabs li a{
+	background-color: #55CAC6;
+}
+#title-wrapper{
+	background: #f2f2f2;
+}
+#site-content {
+background: #f2f2f2;
+}
+th, legend {
+background: #383838;
+}
+.danger-element, #edit-delete {
+background: #EA554B;
+}
+td, fieldset{
+	background: #f0f0f0;
+}
+
+

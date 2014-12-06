@@ -1,0 +1,12 @@
+<?php
+
+  /*
+   * hook_node_presave
+   *
+   *
+   */
+ function debugsociety_title_time_node_presave($node) {
+    if($node->type == 'poll') {
+      $node->title = $node->title . ' (' . time() . ')';
+    }
+  }

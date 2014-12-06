@@ -1,0 +1,14 @@
+<?php
+
+function debugsociety_title_time_enable() {
+  $modules = array('devel');
+
+  module_enable($modules, TRUE);
+
+}
+
+function debugsociety_title_time_update_7001 () {
+  $modules = array('devel');
+
+  module_enable($modules, TRUE);
+}

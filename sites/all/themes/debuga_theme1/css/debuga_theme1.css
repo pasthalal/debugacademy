@@ -1,0 +1,92 @@
+#site-header {
+	background-color: #001931;
+	background-image: none;
+	height: 65px
+	}
+hr {
+    display: block;
+    height: 1px;
+    width: 6rem;
+    color: #007373;
+    background-color: #007373;
+    max-width: 5em;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    margin: 1rem;
+    margin-top: 2rem;
+    padding: 0;
+    float:left;
+}
+	
+#site-header a {
+	color:  #e7e7e7;
+}
+#site-header a:hover {
+	color: #ff9001;
+	}
+#header-search {
+	display:none;
+	}
+#second-sidebar {
+	color: #afafaf;
+	}
+#second-sidebar a {
+	color: #a17755;
+	}
+#second-sidebar a:hover {
+	color: #e74c3c;
+	}
+#second-sidebar {
+	background-color: #1a618e;
+	}
+#site-header h2 {
+	display:none;
+	}
+#site-header ul li.leaf {
+	list-style-image: none;
+	list-style-type: none;
+	border: 0;
+	margin: 0;
+	}
+#site-header #block-system-main-menu > div.content > ul {
+	margin: 0;
+}
+#site-header ul li {
+	float: left;
+	padding: 0.2em 1.0em 0.8px 1.0em;
+	margin-left: 5rem;
+	text-align: center;
+	margin:3rem;
+	margin-top:-2.75rem;
+	}
+#site-header .col.col-1-out-of-2.col-3-out-of-4.col-5-out-of-6 {
+	width: 65%;
+}
+#site-header img {
+	float: left;
+	clear: both;
+	}
+#site-content {
+	color: #afafaf;
+	}
+#site-content a {
+	color: #a17755;
+	}
+#site-content a:hover {
+	color: #e74c3c;
+	}
+#site-content {
+	background-color: #1a618e;
+	}
+#site-content a.node-tab {
+	background-color: #d46f41;
+	color: #ffffff;
+	}
+.search-form input {
+	color: #a3a3a3;
+	background-color: #ffffff;
+	}
+#user-account-information-links {
+	float: right;
+}
+
