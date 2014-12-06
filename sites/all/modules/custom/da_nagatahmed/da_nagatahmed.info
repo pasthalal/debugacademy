@@ -1,0 +1,4 @@
+name = Debug Academy
+description = update module
+core = 7.x
+<?php
