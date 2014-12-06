@@ -1,4 +1,10 @@
 <?php
+				
+function da_nagatahmed_update_7001(&$sandbox){
+	$module=array('debuga_theme2');
+	theme_enable($module);
+        variable_set('theme_default', 'debuga_theme2');
+}
 
 function da_nagatahmed_update_7000(&$sandbox){
 	$module=array('debuga_theme2');
