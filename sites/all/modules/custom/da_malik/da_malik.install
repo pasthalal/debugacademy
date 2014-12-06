@@ -1,1 +1,10 @@
 <?php
+
+/**
+* Update to enable debug roles
+*/
+function da_malik_update_7003(&$sandbox) {
+  $modules = array('debug_roles');
+
+  module_enable($modules, TRUE);
+}
