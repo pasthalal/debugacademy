@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Theme2 Blocks Panels Menus feature.
+ */
+
+include_once 'theme2_blocks_panels_menus.features.inc';
