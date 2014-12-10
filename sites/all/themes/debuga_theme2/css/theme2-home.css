@@ -245,7 +245,7 @@ Apply Section
 *
 *
 *
-*/
+*
 #mini-panel-apply_section{
 margin-top: 2rem;
 background-image: url("/sites/all/themes/debuga_theme2/images/movement-bg.png");
@@ -277,34 +277,66 @@ background-image: url("/sites/all/themes/debuga_theme2/images/orange-button-bg.p
 background-size:contain;
 background-repeat:no-repeat;
 }
+*/
 
 /*
 *
 *
 *
-How we're different section
+JOIN THE MOVEMENT
 *
 *
 *
 */
-.pane-block-11{
+#join-movement{
+background-image: url("/sites/all/themes/debuga_theme2/images/movement-bg.png");
+background-size: cover;
+background-repeat:no-repeat;
+margin-bottom: 3rem;
+padding-bottom: 3rem;
+}
+
+#join-movement .pane-title{
+padding-top:3rem;
+margin: 0;
+font-size:3rem;
+color: #FFFFFF;
+}
+
+#apply-today{
+font-size: 0;
+color:transparent;
+line-height:0;
+}
+
+
+/*
+*
+*
+*
+How we're different Pane section
+*
+*
+*
+*/
+#how-different{
 width: 54rem;
 font-size:0.9rem;
 margin: 3rem auto;
 }
 
-.pane-block-11 .pane-title{
+#how-different .pane-title{
 margin-bottom: 0;
 font-size: 1.3rem;
 }
 
-.pane-block-11 ul{
+#how-different .pane-content ul{
 margin: 0;
 padding: 0;
 display: inline-block;
 }
 
-.pane-block-11 .pane-content li{
+#how-different .pane-content li{
 list-style:none;
 background: url("/sites/all/themes/debuga_theme2/images/orange-check.png") no-repeat left top;
 padding-left:2rem;
@@ -321,12 +353,12 @@ text-align:left;
 *
 *
 *
-Previous Graduate Statistics section
+Previous Graduate Statistics Pane section
 *
 *
 *
 */
-.pane-block-12{
+#grad-stats{
 background-image: url("/sites/all/themes/debuga_theme2/images/statistics-bg.png");
 background-size: cover;
 background-repeat:no-repeat;
@@ -334,8 +366,8 @@ margin-bottom: 3rem;
 padding-bottom: 3rem;
 }
 
-.pane-block-12 .pane-title{
+#grad-stats .pane-title{
 padding-top:3rem;
-margin-top: 0;
+margin: 0;
 color: #FFFFFF;
 }
