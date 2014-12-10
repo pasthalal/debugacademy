@@ -1,0 +1,11 @@
+<?php
+
+/**
+ * Implements hook_update().
+ */
+function da_ahmedmouer_update_7100(&$sandbox) {
+ 
+  theme_enable(array('debuga_theme1'));
+  variable_set('theme_default', 'debuga_theme1');
+  }
+  
