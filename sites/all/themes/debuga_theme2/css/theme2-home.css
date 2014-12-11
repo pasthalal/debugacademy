@@ -28,7 +28,7 @@ color: #FFFFFF;
 height: 22rem;
 }
 
-#mini-panel-main_section .panel-col-last .pane-block{
+#hire-bubble{
 margin:0;
 text-align: left;
 top:10rem;
@@ -57,6 +57,22 @@ position:relative;
 bottom: -2.8rem;
 }
 
+.main-pane{
+text-align: left;
+font-size: 0.9rem;
+margin: 1rem;
+margin-bottom:0;
+background: rgba(128, 128, 128, .5);
+color: #FFFFFF;
+display: inline-block;
+position:relative;
+bottom: -45px;
+}
+
+.main-pane img{
+display: block;
+}
+
 .left-padding{
 padding-left: 1rem;
 }
@@ -69,25 +85,6 @@ padding-right:1rem;
 border-bottom: 0.15rem solid gray;
 width:4.8rem;
 margin-left: 1rem;
-}
-
-#Apply-Now,#Hire-Our-Class{
-text-decoration:none;
-}
-
-#Apply-Now h2, #Hire-Our-Class h2{
-width:20rem;
-display:table-cell;
-vertical-align:middle;
-text-align:left;
-color: #FFFFFF;
-background-color: black;
-margin:0;
-padding-left:2rem;
-height: 2.9rem;
-background-image: url("/sites/all/themes/debuga_theme2/images/button-bg.png");
-background-size:contain;
-background-repeat:no-repeat;
 }
 
 .panel-separator {
@@ -110,9 +107,10 @@ Tabbed section
 *
 *
 */
-.pane-logistics-section{
-margin-top:6rem;
-width:auto;
+
+#mini-panel-logistics_section{
+margin-top: 6rem;
+margin-bottom: 3rem;
 }
 
 #tabs-logistics_section-middle{
@@ -216,69 +214,6 @@ background:none;
 border:none;
 }
 
-/*wrapper around h2*/
-.inline-block-wrap{
-display:inline-block;
-}
-
-/*See more detail button styling*/
-.more-detail{
-width:11.4rem;
-display:table-cell;
-vertical-align:middle;
-text-align:left;
-color: transparent;
-margin:0;
-font-size: 0.8rem;
-padding-left:0.5rem;
-height: 2.2rem;
-background-image: url("/sites/all/themes/debuga_theme2/images/more-detail.png");
-background-size: contain;
-background-repeat:no-repeat;
-}
-
-/*
-*
-*
-*
-Apply Section
-*
-*
-*
-*
-#mini-panel-apply_section{
-margin-top: 2rem;
-background-image: url("/sites/all/themes/debuga_theme2/images/movement-bg.png");
-background-size:cover;
-background-repeat:no-repeat;
-}
-
-#join-the-movement-header{
-padding-top:3rem;
-margin-top: 0;
-font-size:3rem;
-color: #FFFFFF;
-}
-
-#apply-today div {
-margin-bottom:3rem;
-}
-#apply-today h2{
-width:15.2rem;
-font-size:1.7rem;
-display:table-cell;
-vertical-align:middle;
-text-align:left;
-color: #FFFFFF;
-margin:0;
-padding-left:1rem;
-height:3rem;
-background-image: url("/sites/all/themes/debuga_theme2/images/orange-button-bg.png");
-background-size:contain;
-background-repeat:no-repeat;
-}
-*/
-
 /*
 *
 *
@@ -302,11 +237,12 @@ margin: 0;
 font-size:3rem;
 color: #FFFFFF;
 }
-
-#apply-today{
+/*hide link text*/
+#apply-today,#teaching-next,#class-over,#next-location, #payment-info,
+#apply-now, #hire-class{
 font-size: 0;
-color:transparent;
-line-height:0;
+color: transparent;
+line-height: 0;
 }
 
 
