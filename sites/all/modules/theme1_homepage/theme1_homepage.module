@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Theme1_homepage feature.
+ */
+
+include_once 'theme1_homepage.features.inc';

@@ -1,0 +1,309 @@
+hr{
+width:4rem;
+margin-bottom:2.6rem;
+}
+
+.hr-light{
+border-color: #E4E4E4;
+}
+
+.panel-1col {
+text-align: center;
+}
+
+#mini-panel-main_section .panel-col-first{
+height:1rem;
+}
+
+#mini-panel-main_section .panel-col{
+width:50%;
+}
+
+#mini-panel-main_section h1{
+font-size: 4rem;
+color: #FFFFFF;
+}
+
+#mini-panel-main_section .panel-col-last {
+height: 22rem;
+}
+
+#hire-bubble{
+margin:0;
+text-align: left;
+top:10rem;
+background-color: #F67C32;
+padding-left: 1rem;
+border-radius: 1rem;
+color: #FFFFFF;
+width:19rem;
+font-size: 0.9rem;
+}
+
+#second-sidebar{
+padding:0
+}
+
+/*Students and Employers blocks*/
+.panel-col-bottom .pane-block {
+text-align: left;
+font-size: 0.9rem;
+margin: 1rem;
+margin-bottom:0;
+background: rgba(128, 128, 128, .5);
+color: #FFFFFF;
+display: inline-block;
+position:relative;
+bottom: -2.8rem;
+}
+
+.main-pane{
+text-align: left;
+font-size: 0.9rem;
+margin: 1rem;
+margin-bottom:0;
+background: rgba(128, 128, 128, .5);
+color: #FFFFFF;
+display: inline-block;
+position:relative;
+bottom: -45px;
+}
+
+.main-pane img{
+display: block;
+}
+
+.left-padding{
+padding-left: 1rem;
+}
+
+.right-padding{
+padding-right:1rem;
+}
+
+.panel-col-bottom .pane-title {
+border-bottom: 0.15rem solid gray;
+width:4.8rem;
+margin-left: 1rem;
+}
+
+.panel-separator {
+display: none;
+}
+
+#mini-panel-main_section{
+background-image: url("/sites/all/themes/debuga_theme2/images/main-image.png");
+background-size: cover;
+background-repeat:no-repeat;
+margin-bottom: 3.4rem;
+}
+
+/*
+*
+*
+*
+Tabbed section
+*
+*
+*
+*/
+
+#mini-panel-logistics_section{
+margin-top: 6rem;
+margin-bottom: 3rem;
+}
+
+#tabs-logistics_section-middle{
+border: none;
+text-align:center;
+}
+#tabs-logistics_section-middle .item-list{
+display:inline-block;
+}
+
+#tabs-logistics_section-middle  .ui-tabs-panel{
+text-align:left;
+margin:0 auto;
+border:0.2rem solid #E5E5E5;
+width:52rem;
+}
+
+.tab-header{
+font-size:1.4rem;
+margin-top:0;
+}
+
+#tabs-logistics_section-middle  a{
+text-decoration:none;
+}
+
+#tabs-logistics_section-middle  p{
+font-size: 0.8rem;
+}
+
+#tabs-logistics_section-middle .item-list a{
+padding: 0;
+margin: 0;
+color: transparent;
+width:13.4375rem;
+height:10rem;
+}
+
+#tabs-logistics_section-middle li{
+margin:0.25rem
+}
+
+/*First tab inactive state*/
+#tabs-logistics_section-middle .ui-tabs-nav .first a{
+background-image:url("/sites/all/themes/debuga_theme2/images/teaching-next-inactive.png");
+background-size:contain;
+background-repeat:no-repeat;
+}
+
+/*First tab active state*/
+#tabs-logistics_section-middle .ui-tabs-nav li.first.ui-state-active a{
+background-image:url("/sites/all/themes/debuga_theme2/images/teaching-next-active.png");
+background-size:contain;
+background-repeat:no-repeat;
+}
+
+/*Second tab inactive state*/
+#tabs-logistics_section-middle .ui-tabs-nav li:nth-child(2) a {
+background-image:url("/sites/all/themes/debuga_theme2/images/class-over-inactive.png");
+background-size:contain;
+background-repeat:no-repeat;
+}
+
+/*Second tab active state*/
+#tabs-logistics_section-middle .ui-tabs-nav li:nth-child(2).ui-state-active a {
+background-image:url("/sites/all/themes/debuga_theme2/images/class-over-active.png");
+background-size:contain;
+background-repeat:no-repeat;
+}
+
+/*Third tab inactive state*/
+#tabs-logistics_section-middle .ui-tabs-nav li:nth-child(3) a {
+background-image:url("/sites/all/themes/debuga_theme2/images/location-tab-inactive.png");
+background-size:contain;
+background-repeat:no-repeat;
+}
+
+/*Third tab active state*/
+#tabs-logistics_section-middle .ui-tabs-nav li:nth-child(3).ui-state-active a {
+background-image:url("/sites/all/themes/debuga_theme2/images/location-tab-active.png");
+background-size:contain;
+background-repeat:no-repeat;
+}
+
+/*Fourth (last) tab inactive state*/
+#tabs-logistics_section-middle .ui-tabs-nav .last a{
+background-image:url("/sites/all/themes/debuga_theme2/images/payment-tab-inactive.png");
+background-size:contain;
+background-repeat:no-repeat;
+}
+
+/*Fourth (last) tab active state*/
+#tabs-logistics_section-middle .ui-tabs-nav li.last.ui-state-active a{
+background-image:url("/sites/all/themes/debuga_theme2/images/payment-tab-active.png");
+background-size:contain;
+background-repeat:no-repeat;
+}
+
+#tabs-logistics_section-middle ul, #tabs-logistics_section-middle li {
+background:none;
+border:none;
+}
+
+/*
+*
+*
+*
+JOIN THE MOVEMENT
+*
+*
+*
+*/
+#join-movement{
+background-image: url("/sites/all/themes/debuga_theme2/images/movement-bg.png");
+background-size: cover;
+background-repeat:no-repeat;
+margin-bottom: 3rem;
+padding-bottom: 3rem;
+}
+
+#join-movement .pane-title{
+padding-top:3rem;
+margin: 0;
+font-size:3rem;
+color: #FFFFFF;
+}
+/*hide link text*/
+#apply-today,#teaching-next,#class-over,#next-location, #payment-info,
+#apply-now, #hire-class{
+font-size: 0;
+color: transparent;
+line-height: 0;
+}
+
+
+/*
+*
+*
+*
+How we're different Pane section
+*
+*
+*
+*/
+#how-different{
+width: 54rem;
+font-size:0.9rem;
+margin: 3rem auto;
+}
+
+#how-different .pane-title{
+margin-bottom: 0;
+font-size: 1.3rem;
+}
+
+#how-different .pane-content ul{
+margin: 0;
+padding: 0;
+display: inline-block;
+}
+
+#how-different .pane-content li{
+list-style:none;
+background: url("/sites/all/themes/debuga_theme2/images/orange-check.png") no-repeat left top;
+padding-left:2rem;
+margin-bottom:1rem;
+text-align:left;
+vertical-align: middle;
+}
+
+.left{
+text-align:left;
+}
+
+/*
+*
+*
+*
+Previous Graduate Statistics Pane section
+*
+*
+*
+*/
+#grad-stats{
+background-image: url("/sites/all/themes/debuga_theme2/images/statistics-bg.png");
+background-size: cover;
+background-repeat:no-repeat;
+margin-bottom: 3rem;
+padding-bottom: 3rem;
+}
+
+#grad-stats .pane-title{
+padding-top:3rem;
+margin: 0;
+color: #FFFFFF;
+}
