@@ -1,4 +1,5 @@
 name = Debug Academy Nagat
 description = update module
 core = 7.x
+dependencies[] = application_form
 
