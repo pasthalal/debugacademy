@@ -3,10 +3,8 @@ sites/*/settings*.php
 sites/sites.php
 sites/*.local
 sites/*.local*
-sites/default
-sites/default/*
+sites/default/files/*
 *.DS_store
-sites/default
 
 # Ignore paths that contain user-generated content.
 sites/*/files
