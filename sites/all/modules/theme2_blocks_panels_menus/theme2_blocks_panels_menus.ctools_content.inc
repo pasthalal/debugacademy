@@ -132,7 +132,7 @@ function theme2_blocks_panels_menus_default_ctools_custom_content() {
   $content->settings = array(
     'admin_title' => '',
     'title' => 'PREVIOUS GRADUATE STATISTICS',
-    'body' => '<hr><a href="https://debugs.slack.com" id="see-stats-link" target="_blank"><img src="/sites/all/themes/debuga_theme2/images/stats-button-bg.PNG"></a>',
+    'body' => '<hr><a href="https://debugs.slack.com" id="see-stats-link" target="_blank"><img src="/sites/all/themes/debuga_theme2/images/stats-button-bg.png"></a>',
     'format' => 'html',
     'substitute' => 1,
   );
