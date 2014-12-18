@@ -29,6 +29,22 @@ function theme2_blocks_panels_menus_default_ctools_custom_content() {
   $content = new stdClass();
   $content->disabled = FALSE; /* Edit this to true to make a default content disabled initially */
   $content->api_version = 1;
+  $content->name = 'copyright_info';
+  $content->admin_title = 'Copyright info';
+  $content->admin_description = 'Copyright information';
+  $content->category = '';
+  $content->settings = array(
+    'admin_title' => '',
+    'title' => '',
+    'body' => '<p>©Copyright 2014. All Rights Reserved.</p>',
+    'format' => 'html',
+    'substitute' => 1,
+  );
+  $export['copyright_info'] = $content;
+
+  $content = new stdClass();
+  $content->disabled = FALSE; /* Edit this to true to make a default content disabled initially */
+  $content->api_version = 1;
   $content->name = 'employer_info';
   $content->admin_title = 'employer_info';
   $content->admin_description = 'Employer information';
@@ -41,6 +57,22 @@ function theme2_blocks_panels_menus_default_ctools_custom_content() {
     'substitute' => 1,
   );
   $export['employer_info'] = $content;
+
+  $content = new stdClass();
+  $content->disabled = FALSE; /* Edit this to true to make a default content disabled initially */
+  $content->api_version = 1;
+  $content->name = 'get_in_touch';
+  $content->admin_title = 'Get In Touch';
+  $content->admin_description = 'Address, Contact Info, and Hours';
+  $content->category = '';
+  $content->settings = array(
+    'admin_title' => '',
+    'title' => 'GET IN TOUCH',
+    'body' => '<p><img src="/sites/all/themes/debuga_theme2/images/location-icon.PNG" style="line-height: 1.5; float: left;">&nbsp;<span style="line-height: 1.5;">Address: 13524 Gray Bill Court, Clifton</span></p><p><img alt="" src="/sites/all/themes/debuga_theme2/images/phone-icon.png" style="float: left;">&nbsp;Phone: 703-111-1111</p><p><img alt="" src="/sites/all/themes/debuga_theme2/images/skype-icon.png" style="float: left;">&nbsp;Skype: debugsociety</p><p><img alt="" src="/sites/all/themes/debuga_theme2/images/e-mail-icon.png" style="float: left; margin-top: 3px; margin-bottom: 3px;">&nbsp;E-mail: debugsociety@debug.com</p><p><img alt="" src="/sites/all/themes/debuga_theme2/images/clock-icon.png" style="float: left;">&nbsp;Weekend: from 9 am to 6 pm</p>',
+    'format' => 'html',
+    'substitute' => 1,
+  );
+  $export['get_in_touch'] = $content;
 
   $content = new stdClass();
   $content->disabled = FALSE; /* Edit this to true to make a default content disabled initially */
@@ -132,7 +164,7 @@ function theme2_blocks_panels_menus_default_ctools_custom_content() {
   $content->settings = array(
     'admin_title' => '',
     'title' => 'PREVIOUS GRADUATE STATISTICS',
-    'body' => '<hr><a href="https://debugs.slack.com" id="see-stats-link" target="_blank"><img src="/sites/all/themes/debuga_theme2/images/stats-button-bg.PNG"></a>',
+    'body' => '<hr><a href="https://debugs.slack.com" id="see-stats-link" target="_blank"><img src="/sites/all/themes/debuga_theme2/images/stats-button-bg.png"></a>',
     'format' => 'html',
     'substitute' => 1,
   );
