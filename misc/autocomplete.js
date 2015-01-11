@@ -21,6 +21,17 @@ Drupal.behaviors.autocomplete = {
           .attr('id', $input.attr('id') + '-autocomplete-aria-live')
         );
       new Drupal.jsAC($input, acdb[uri]);
+
+      // fix autocomplete scrollbar issue
+      $('input.form-autocomplete').closest('div').parent().click(
+        function(event) {
+          if (!$(this).children('div:first').is('#autocomplete') && Drupal.settings.autocompleteCurrent) {
+            Drupal.settings.autocompleteCurrent.selected = false;
+            Drupal.settings.autocompleteCurrent.hidePopup();
+            Drupal.settings.autocompleteCurrent.db.cancel();
+          }
+        }
+      );
     });
   }
 };
@@ -47,7 +58,7 @@ Drupal.jsAC = function ($input, db) {
   $input
     .keydown(function (event) { return ac.onkeydown(this, event); })
     .keyup(function (event) { ac.onkeyup(this, event); })
-    .blur(function () { ac.hidePopup(); ac.db.cancel(); });
+    .blur(function () { Drupal.settings.autocompleteCurrent = ac; });
 
 };
 
