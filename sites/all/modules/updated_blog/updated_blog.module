@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the updated blog feature.
+ */
+
+include_once 'updated_blog.features.inc';
