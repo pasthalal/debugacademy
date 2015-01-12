@@ -28,8 +28,8 @@ function theme2_blocks_panels_menus_default_fe_block_settings() {
         'weight' => 0,
       ),
       'debuga_theme' => array(
-        'region' => 'footer',
-        'status' => 1,
+        'region' => '',
+        'status' => 0,
         'theme' => 'debuga_theme',
         'weight' => -25,
       ),
@@ -124,6 +124,41 @@ function theme2_blocks_panels_menus_default_fe_block_settings() {
     ),
     'title' => '',
     'visibility' => 0,
+  );
+
+  $export['panels_mini-theme_2_footer'] = array(
+    'cache' => -1,
+    'delta' => 'theme_2_footer',
+    'module' => 'panels_mini',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'debuga_theme' => array(
+        'region' => 'footer',
+        'status' => 1,
+        'theme' => 'debuga_theme',
+        'weight' => 0,
+      ),
+      'platon' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'platon',
+        'weight' => 0,
+      ),
+      'theme1' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'theme1',
+        'weight' => 0,
+      ),
+    ),
   );
 
   return $export;
