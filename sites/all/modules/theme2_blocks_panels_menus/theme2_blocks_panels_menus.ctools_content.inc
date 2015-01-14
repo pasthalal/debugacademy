@@ -116,7 +116,7 @@ function theme2_blocks_panels_menus_default_ctools_custom_content() {
   $content->settings = array(
     'admin_title' => '',
     'title' => 'JOIN THE MOVEMENT',
-    'body' => '<hr><a href="https://debugs.slack.com" id="apply-today">APPLY TODAY<img src="/sites/all/themes/debuga_theme2/images/apply-today-button.png"></a>',
+    'body' => '<hr><a href="/apply" id="apply-today">APPLY TODAY<img src="/sites/all/themes/debuga_theme2/images/apply-today-button.png"></a>',
     'format' => 'html',
     'substitute' => 1,
   );
@@ -180,7 +180,7 @@ function theme2_blocks_panels_menus_default_ctools_custom_content() {
   $content->settings = array(
     'admin_title' => '',
     'title' => 'STUDENTS',
-    'body' => '<p class="left-padding right-padding">Only teach highly in-demand technologies.<br>Re-assess curriculum regularly.</p><p class="left-padding right-padding">Keep class sizes very small: 5-10 students per class.</p><p class="left-padding right-padding">Curriculum is customized mid-way per-student.</p><a href="www.cnn.com" id="apply-now">Apply Now<img src="/sites/all/themes/debuga_theme2/images/apply-now-button.png"></a>',
+    'body' => '<p class="left-padding right-padding">Only teach highly in-demand technologies.<br>Re-assess curriculum regularly.</p><p class="left-padding right-padding">Keep class sizes very small: 5-10 students per class.</p><p class="left-padding right-padding">Curriculum is customized mid-way per-student.</p><a href="/apply" id="apply-now">Apply Now<img src="/sites/all/themes/debuga_theme2/images/apply-now-button.png"></a>',
     'format' => 'html',
     'substitute' => 1,
   );
