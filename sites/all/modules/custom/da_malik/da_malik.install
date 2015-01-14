@@ -1,8 +1,41 @@
 <?php
-
 /**
-* Update to enable debug roles
+* Implements Hook enable
 */
+
+function da_malik_enable() {
+
+	/*setting the homepage*/
+ 	$homepage = 'home2';
+	variable_set('site_frontpage', $homepage);
+	
+	/*enabling theme 2 and setting it as the default*/
+	theme_enable(array('debuga_theme'));
+	variable_set('theme_default', 'debuga_theme');
+	
+	/*enabling theme2 blocks panels module and nagat's module*/
+	$modules = array('theme2_blocks_panels_menus','da_nagatahmed');
+    module_enable($modules, TRUE);
+	
+}
+/**
+* Implements hook_update_N
+*/
+
+function da_malik_update_7005(&$sandbox) {
+	/*setting the homepage*/
+ 	$homepage = 'home2';
+	variable_set('site_frontpage', $homepage);
+	
+	/*enabling theme 2 and setting it as the default*/
+	theme_enable(array('debuga_theme'));
+	variable_set('theme_default', 'debuga_theme');
+	
+	/*enabling theme2 blocks panels module and nagat's module*/
+	$modules = array('theme2_blocks_panels_menus','da_nagatahmed');
+    module_enable($modules, TRUE);
+}
+
 function da_malik_update_7004(&$sandbox) {
   $modules = array('debug_roles');
 
