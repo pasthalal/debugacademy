@@ -14,14 +14,22 @@ function da_malik_enable() {
 	theme_enable(array($debugAcademyThemeTwo));
 	variable_set('theme_default', $debugAcademyThemeTwo);
 	
-	/*enabling theme2 blocks panels module and nagat's module*/
-	$modules = array('theme2_blocks_panels_menus','da_nagatahmed');
+	/*enabling theme2 blocks panels, nagat, social media links, and simplenews modules*/
+	$modules = array('theme2_blocks_panels_menus','da_nagatahmed', 'social_media_links','simplenews');
     module_enable($modules, TRUE);
 	
 }
 /**
 * Implements hook_update_N
 */
+
+function da_malik_update_7007(&$sandbox) {
+
+	/*enable social media links and simplenews modules*/
+	$modules = array('social_media_links','simplenews');
+    module_enable($modules, TRUE);
+
+}
 
 function da_malik_update_7006(&$sandbox) {
 
