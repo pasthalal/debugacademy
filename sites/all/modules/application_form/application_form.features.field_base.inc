@@ -319,6 +319,9 @@ function application_form_field_default_field_bases() {
     'deleted' => 0,
     'entity_types' => array(),
     'field_name' => 'field_status',
+    'field_permissions' => array(
+      'type' => 1,
+    ),
     'foreign keys' => array(),
     'indexes' => array(
       'value' => array(
