@@ -11,10 +11,8 @@ hr {
     background-color: #007373;
     max-width: 5em;
     border: 0;
-    border-bottom: 1px solid #ccc;
     margin: 1rem;
-    margin-top: 2rem;
-    padding: 0;
+    margin-top: 1.8rem;
     float:left;
 }
 	
@@ -54,10 +52,10 @@ hr {
 #site-header ul li {
 	float: left;
 	padding: 0.2em 1.0em 0.8px 1.0em;
-	margin-left: 5rem;
+	margin-left: 3rem;
 	text-align: center;
-	margin:3rem;
-	margin-top:-2.75rem;
+	margin:3.5rem;
+	margin-top:-4.5rem;
 	}
 #site-header .col.col-1-out-of-2.col-3-out-of-4.col-5-out-of-6 {
 	width: 65%;
@@ -66,17 +64,12 @@ hr {
 	float: left;
 	clear: both;
 	}
-#site-content {
-	color: #afafaf;
-	}
+
 #site-content a {
 	color: #a17755;
 	}
 #site-content a:hover {
 	color: #e74c3c;
-	}
-#site-content {
-	background-color: #1a618e;
 	}
 #site-content a.node-tab {
 	background-color: #d46f41;
@@ -87,6 +80,16 @@ hr {
 	background-color: #ffffff;
 	}
 #user-account-information-links {
+	margin-top: -4rem;
 	float: right;
+	margin-right:-19rem;
+	border-style:solid;
+	border-width: 1px;
+	border-color:#007373;
+	padding:3px;
+}
+#site-header .col-3-out-of-4{
+width:75%;
+margin:15px 20px 1px 23px;
 }
 
