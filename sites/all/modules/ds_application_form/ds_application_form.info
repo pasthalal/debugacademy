@@ -1,0 +1,8 @@
+name = DS_application_form
+description = Ds_application_form
+core = 7.x
+package = Features
+version = 7.x-4.1
+project = ds_application_form
+dependencies[] = application_form
+features[features_api][] = api:2
