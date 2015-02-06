@@ -1,7 +1,0 @@
-<?php
-/**
- * @file
- * Code for the Application-form feature.
- */
-
-include_once 'application_form.features.inc';

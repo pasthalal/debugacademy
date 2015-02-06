@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * application_form.features.field_instance.inc
+ * debug_a_application.features.field_instance.inc
  */
 
 /**
  * Implements hook_field_default_field_instances().
  */
-function application_form_field_default_field_instances() {
+function debug_a_application_field_default_field_instances() {
   $field_instances = array();
 
   // Exported field_instance: 'entityform-application-field_additional_time'

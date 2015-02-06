@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * application_form.features.inc
+ * debug_a_application.features.inc
  */
 
 /**
  * Implements hook_default_entityform_type().
  */
-function application_form_default_entityform_type() {
+function debug_a_application_default_entityform_type() {
   $items = array();
   $items['application'] = entity_import('entityform_type', '{
     "type" : "application",

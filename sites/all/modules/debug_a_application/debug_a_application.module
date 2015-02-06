@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Debug_A_application feature.
+ */
+
+include_once 'debug_a_application.features.inc';

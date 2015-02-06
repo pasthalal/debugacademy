@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * application_form.features.field_base.inc
+ * debug_a_application.features.field_base.inc
  */
 
 /**
  * Implements hook_field_default_field_bases().
  */
-function application_form_field_default_field_bases() {
+function debug_a_application_field_default_field_bases() {
   $field_bases = array();
 
   // Exported field_base: 'field_additional_time'
@@ -319,6 +319,9 @@ function application_form_field_default_field_bases() {
     'deleted' => 0,
     'entity_types' => array(),
     'field_name' => 'field_status',
+    'field_permissions' => array(
+      'type' => 1,
+    ),
     'foreign keys' => array(),
     'indexes' => array(
       'value' => array(
