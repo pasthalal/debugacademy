@@ -320,7 +320,7 @@ function debug_a_application_field_default_field_bases() {
     'entity_types' => array(),
     'field_name' => 'field_status',
     'field_permissions' => array(
-      'type' => 1,
+      'type' => 2,
     ),
     'foreign keys' => array(),
     'indexes' => array(
