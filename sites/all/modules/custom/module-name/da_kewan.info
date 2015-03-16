@@ -1,0 +1,5 @@
+name = Debugacademy
+description = Automatic updates for debugacademy.
+core = 7.x
+
+
