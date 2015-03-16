@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the debugacademy_applicationform feature.
+ */
+
+include_once 'debugacademy_applicationform.features.inc';
